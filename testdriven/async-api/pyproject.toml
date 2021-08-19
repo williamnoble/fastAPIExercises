@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "async-api"
+version = "0.1.0"
+description = ""
+authors = ["William Noble <27914124+williamnoble@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.68.0"
+uvicorn = "^0.14.0"
+requests = "^2.26.0"
+SQLAlchemy = "1.3"
+asyncpg = "^0.24.0"
+databases = "^0.4.3"
+psycopg2-binary = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
